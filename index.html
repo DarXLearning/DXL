@@ -21,8 +21,8 @@
             padding: 1em 0;
         }
 
-        nav {
-            background-color: #444;
+	nav {
+            background-color:#a54c2f;
             overflow: hidden;
         }
 
@@ -51,11 +51,33 @@
         }
 
         section {
-            padding: 2em;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+        h1 {
+            color: #fff;
+        }
+        h2 {
+            color: #444;
+        }
+
+        section {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
 
         h2 {
             color: #333;
+        }
+	h3 {
+            color: #777;
         }
 
         p {
@@ -67,17 +89,28 @@
             color: #fff;
             text-align: center;
             padding: 1em 0;
-            position: fixed;
             bottom: 0;
             width: 100%;
         }
+	.social-icons {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center; /* Horizontally center the icons */
+    }
+
+    .social-icons li {
+      margin: 0 10px; /* Adjust spacing between icons */
+    }
     </style>
 </head>
 
 <body>
     <header>
         <h1>Dar X-Learning</h1>
-        <p>Empowering Minds Through Free Education</p>
+        <h3>The Dynamic Leaarning ...<br>
+	(From Ambition to Achievement)</h3>
+	
     </header>
         
         
@@ -93,10 +126,17 @@
     <section>
         <h2>Welcome to Dar X-Learning</h2>
         <p>Explore our collection of free educational resources and enhance your learning experience.</p>
-        <p>From programming to science, we've got you covered!</p>
     </section>
 
     <footer>
+	 <ul class="social-icons">
+    		<li><a href="https://facebook.com/DarXLearning"><img src="facebook-icon" alt="Facebook"></a></li>
+   		 <li><a href="https://twitter.com/DarXLearning"><img src="twitter-icon.png" alt="Twitter"></a></li>
+		<li><a href="https://youtube.com/@DarXLearning"><img src="youtube-icon" alt="Youtube"></a></li>
+		<li><a href="https://instagram.com/DarXLearning"><img src="instagram-icon" alt="Instagram"></a></li>
+		<li><a href="https://linkedin.com/in/DarXLearning"><img src="linkedin-icon" alt="LinkedIn"></a></li>
+   		 <!-- Add more social media icons as needed -->
+ 	 </ul>
         <p>&copy; 2023 Dar X-Learning. All rights reserved.</p>
     </footer>
 </body>
