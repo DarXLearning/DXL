@@ -1,10 +1,21 @@
-e<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Educational Courses</title>
+    <title>Your Educational Courses</title>
     <style>
+    	       .course-section {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px; /* Adjust as needed */
+        }
+
+        .course-subsection {
+            width: 48%;
+            padding: 20px; /* Adjust as needed */
+            border: 1px solid #ccc; /* Adjust border properties as needed */
+        }
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
@@ -105,6 +116,7 @@ e<!DOCTYPE html>
     }
     </style>
 </head>
+    
 <body>
 
     <header>
@@ -131,8 +143,37 @@ e<!DOCTYPE html>
 
     <section id="courses">
         <h2>Foundation Courses</h2>
-        <ul>
-            <li><a href="f9.html">Foundation Course 9th</a></li>
+            <div class="course-section">
+                <div class="course-subsection">
+               <!--- Foundation 9 --->
+              <p>   
+             <a href="foundation9maths.html"> <img src="images/foundation9maths-poster"  alt="Foundation 9 Maths" > </a> </p>
+             <!-- Add content for Foundation 9 maths here -->
+            	</div>
+                <div class="course-subsection">
+       <!--- Foundation 10 --->
+            <p>   
+            <a href="foundation10maths.html"> <img src="images/foundation9maths-poster"  alt="Foundation 10 Maths" > </a> </p>
+            <!-- Add content for Foundation  10 maths here -->
+          </div>
+    </div>
+    
+    
+    <div class="course-section">
+                <div class="course-subsection">
+               <!--- Foundation 9 --->
+              <p>   
+             <a href="foundation9phy.html"> <img src="images/foundation9phy-poster"  alt="Foundation 9 Physics" > </a> </p>
+             <!-- Add content for Foundation 9 Physics here -->
+            	</div>
+                <div class="course-subsection">
+       <!--- Foundation 10 --->
+            <p>   
+            <a href="foundation10phy.html"> <img src="images/foundation9phy-poster"  alt="Foundation 10 Phy" > </a> </p>
+            <!-- Add content for Foundation  10 maths here -->
+          </div>
+    </div>
+
     </section>
 <!-- <section>
 	    <h2>Help</h2>
