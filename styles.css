@@ -96,9 +96,7 @@ footer {
     padding: 0.01em 0;
     bottom: 0;
     width: 100%;
-}
-#myFooter {
-    min-height: 100px; /* Adjust the value to set a minimum height */
+    min-height: 400px; /* Adjust the value to set a minimum height */
 }
 .social-icons {
     list-style: none;
