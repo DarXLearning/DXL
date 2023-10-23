@@ -1,7 +1,7 @@
 /* Reset default margin and padding for all elements */
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0.5;
+    padding: 0.5;
     box-sizing: border-box;
 }
 
@@ -79,7 +79,7 @@ a {
 
 .cta-button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 200px 25px;
     background-color: #007BFF;
     color: #fff;
     border-radius: 5px;
